@@ -1,0 +1,28 @@
+programa
+{
+	
+	inclua biblioteca Matematica --> mat
+	funcao inicio()
+
+	{
+	real a,b,c, soma, arredondamento
+	cadeia nome
+
+
+
+	
+	
+	escreva("Digite seu nome\n")
+	leia (nome)
+	 escreva("Digite nota 1:\n")
+	leia(a)
+	escreva("Digite nota 2:\n")
+	leia(b)
+	escreva("Digite nota 3:\n")
+	leia (c)
+	soma= (a+b+c)/3
+
+
+	escreva ("As notas atribuidas ao aluno (a) ", nome, " é equivalente a ", a, ", ", b, " e ", c, " E a sua média é igual a: ", mat.arredondar(soma, 2))
+	}
+}
